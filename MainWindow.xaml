@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFAN_Access.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFAN_Access"
+        mc:Ignorable="d"
+        Title="ACCESS + Dataset" Height="450" Width="800">
+	<DockPanel>
+		<Menu DockPanel.Dock="Top">
+			<MenuItem Header="Marks" Click="miMarks_Click"/>
+			<MenuItem Header="Save" Click="miSave_Click"/>
+			<MenuItem Header="New" Click="miNew_Click"/>
+			<MenuItem Header="Modify" Click="miModify_Click"/>
+			<MenuItem Header="Delete" Click="miDelete_Click"/>
+		</Menu>
+		<TextBox x:Name="tbData" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+	</DockPanel>
+</Window>
